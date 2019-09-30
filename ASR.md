@@ -2,7 +2,7 @@
 
 ## Overview:
 - How to evaluate ASR systems?
-  - by [Word Error Rate (WER)](en.wikipedia.org/wiki/Word_error_rate) (the fewer, the better); 
+  - by [Word Error Rate (WER)](https://en.wikipedia.org/wiki/Word_error_rate) (the fewer, the better); 
   - for language (Chinese, Japanese, etc.) where charactors serve as basic units of the language, Char Error Rate (CER) is a better criteria
   - if the result is passed on into another system (say translation system); then the performance of the said system is a better criteria; <br />
   (for example: the translation system may still have a better BLEU score even if the system has a high WER but gets all the key word right, [stated here](https://www.microsoft.com/en-us/research/publication/why-word-error-rate-is-not-a-good-metric-for-speech-recognizer-training-for-the-speech-translation-task/); in this case, BLEU score is a better criterion than WER)
