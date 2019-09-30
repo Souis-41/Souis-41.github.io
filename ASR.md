@@ -26,8 +26,8 @@
 
 - Tibetan ASR
   - a hybrid CTC-Attention ASR network architecture; connected with Language Model using shallow fusion
-  - a transfer learning technique enables the model to reach <7% Word Error Rate with only ~30h of training data <br />
-  beating [zhou et. al](http://tcci.ccf.org.cn/conference/2017/papers/106.pdf) (WER ~14.5%) with more convincing train-test split and no prior knowledge in Tibentan language 
+  - a transfer learning technique enables the model to reach <7% Word Error Rate with only \~30h of training data <br />
+  beating [zhou et. al](http://tcci.ccf.org.cn/conference/2017/papers/106.pdf) (WER \~14.5%) with more convincing train-test split and no prior knowledge in Tibentan language 
 
 ## Features
 - augmentation methods and training tricks
