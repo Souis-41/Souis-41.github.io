@@ -17,7 +17,8 @@
 )
     - a [bidirectional Language Model rescoring technique](https://arxiv.org/abs/1905.06655) finetuned from a pretrained Bert [here](http://nlp.ist.i.kyoto-u.ac.jp/index.php?BERT日本語Pretrainedモデル)
     - a Voice Activity Detection(VAD) system to segment raw audio and extract clips with utterances
-    - an Auto-punctuating System for better human understanding and translation results
+    - an optional Speech Enhancement (denoise) system trained in a joint-learning manner  
+    - an Auto-punctuating System for better human understanding and machine translation results
 
   - Tibetan ASR
     - a hybrid CTC-Attention ASR network architecture; connected with Language Model using shallow fusion
@@ -26,6 +27,10 @@
 - Future Works
 
 - Read More
-  - where to get started on your own ASR systems:
+  - where to get started on your own ASR systems
+    - [EspNet](https://github.com/espnet/espnet) by JHU offers great baseline for Pytorch Users
+    - [Openseqtoseq](https://github.com/NVIDIA/OpenSeq2Seq) by Nvidia offers great baseline for Tensorflow Users
+    - for Andriod applications [CMU sphinx](https://cmusphinx.github.io/) might be what you're looking for
+    - [Fairseq](https://github.com/pytorch/fairseq) by Facebook AI Research Team and [RWTH ASR](https://www-i6.informatik.rwth-aachen.de/rwth-asr/) by Aachen University are great too; but might frighten beginnners for their elaborate coding style
   - augmentation methods and training tricks
   - if you are more interest in ASR theories
