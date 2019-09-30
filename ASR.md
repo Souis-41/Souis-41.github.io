@@ -2,7 +2,7 @@
 
 - Overview:
   - How to evaluate ASR systems?
-    - by [Word Error Rate (WER)] (en.wikipedia.org/wiki/Word_error_rate), the fewer, the better; for Chinese, Japanese or other language where charactors serve as basic unit of the language, Char Error Rate (CER) might be a better criteria
+    - by [Word Error Rate (WER)](en.wikipedia.org/wiki/Word_error_rate), the fewer, the better; for Chinese, Japanese or other language where charactors serve as basic unit of the language, Char Error Rate (CER) might be a better criteria
     - if the result is passed on into another system (say translation system); then the performance of the said system is a better criteria; (for example: the translation system may still have a better BLEU score even if the system has a high WER but gets all the key word right, [stated here](https://www.microsoft.com/en-us/research/publication/why-word-error-rate-is-not-a-good-metric-for-speech-recognizer-training-for-the-speech-translation-task/))
   - what is the current State Of The Art (SOTA) on Japanese datasets?
     - on [CSJ](https://pj.ninjal.ac.jp/corpus_center/csj/document.html) dataset: a CER of ~5% by [Mitsubishi Electronic Research Lab](https://www.merl.com/)
