@@ -25,17 +25,7 @@
   - a hybrid CTC-Attention ASR network architecture; connected with Language Model using shallow fusion
   - a transfer learning technique enables the model to reach <7% Word Error Rate with only ~30h of training data beating [zhou et. al](http://tcci.ccf.org.cn/conference/2017/papers/106.pdf) (WER ~14.5%) with more convincing train-test split and no prior knowledge in Tibentan language 
 
-## Future Works
-- apply unsupervised learning techniques on unpaired audios or texts
-- apply back-translation style ASR-TTS chain for better ASR performance
-- apply Reinforcement Learning techniques on ASR model training
-
-## Further Reading
-- where to get started on your own ASR systems
-  - [EspNet](https://github.com/espnet/espnet) by JHU offers a great baseline for Pytorch Users
-  - [Openseq2seq](https://github.com/NVIDIA/OpenSeq2Seq) by Nvidia offers a great baseline for Tensorflow Users
-  - for Andriod applications [CMU sphinx](https://cmusphinx.github.io/) might be what you're looking for
-  - [Fairseq](https://github.com/pytorch/fairseq) by Facebook AI Research Team and [RWTH ASR](https://www-i6.informatik.rwth-aachen.de/rwth-asr/) by Aachen University are great too; but might frighten beginnners because of their elaborate coding style
+## Features
 - augmentation methods and training tricks
   - [speed perturbation](http://speak.clsp.jhu.edu/uploads/publications/papers/1050_pdf.pdf)
     - 3 folds of training data of speed [0.9x 1.0x 1.1x] yields 5% ~ 10% relative improvement over baseline; (kaldi users may augment on the fly by altering wav.scp file)
@@ -59,6 +49,18 @@
     - warmup learning rate
     - large batch size (achieve by multiple GPU or accumulate gradient)
     - checkpoint weight average
+
+## Future Works
+- apply unsupervised learning techniques on unpaired audios or texts
+- apply back-translation style ASR-TTS chain for better ASR performance
+- apply Reinforcement Learning techniques on ASR model training
+
+## Further Reading
+- where to get started on your own ASR systems
+  - [EspNet](https://github.com/espnet/espnet) by JHU offers a great baseline for Pytorch Users
+  - [Openseq2seq](https://github.com/NVIDIA/OpenSeq2Seq) by Nvidia offers a great baseline for Tensorflow Users
+  - for Andriod applications [CMU sphinx](https://cmusphinx.github.io/) might be what you're looking for
+  - [Fairseq](https://github.com/pytorch/fairseq) by Facebook AI Research Team and [RWTH ASR](https://www-i6.informatik.rwth-aachen.de/rwth-asr/) by Aachen University are great too; but might frighten beginnners because of their elaborate coding style
 - [ASR theories](CTC.md)
 - [ToolKits](tools.md)
 
