@@ -3,9 +3,9 @@
 # current works
 
 - [Automatic Speech Recognition (ASR)](ASR.md)
-- Speech Enhancement
-- Text To Speech (TTS)
-- Voice Conversion
+- [Speech Enhancement](SE.md)
+- [Text To Speech (TTS)](TTS.md)
+- [Voice Conversion](VoiceConversion.md)
 
 # related side projects
 
@@ -17,7 +17,7 @@
 
 # interests
 
-- [Automatic Music Trancriptions](AMT.md) (AMT)
+- [Automatic Music Trancriptions (AMT)](AMT.md)
 - [Quaternion Neural Networks](QuaternionNeuralNetworks.md)
 - [Discrete Optimization](DiscreteOptimization.md)
 
