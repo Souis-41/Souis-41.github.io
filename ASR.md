@@ -4,8 +4,8 @@
   - what is ASR?
   - where can you apply ASR techniques?
   - what is the current State Of The Art (SOTA) of ASR technique?
-    - for [CSJ](https://pj.ninjal.ac.jp/corpus_center/csj/document.html) dataset: a [Char Error Rate(CER, the fewer, the better)](en.wikipedia.org/wiki/Word_error_rate) of ~5%
-    - for a publicly available dataset [jsut](https://sites.google.com/site/shinnosuketakamichi/publication/jsut) basic5k; [Google ASR API](https://cloud.google.com/speech-to-text/) achieves a CER of ~8.0%
+    - on [CSJ](https://pj.ninjal.ac.jp/corpus_center/csj/document.html) dataset: a [Char Error Rate(CER, the fewer, the better)](en.wikipedia.org/wiki/Word_error_rate) of ~5% by [Mitsubishi Electronic Research Lab](https://www.merl.com/)
+    - on a publicly available dataset [jsut](https://sites.google.com/site/shinnosuketakamichi/publication/jsut) basic5k; [Google ASR API](https://cloud.google.com/speech-to-text/) achieves a CER of ~8.0%
   - how well does Souis do in ASR related tasks?
     - CER ~4.7% on CSJ test set;
     - CER ~10.1% on Jsut Basic5k; Beats [IBM Watson API](https://www.ibm.com/watson/services/speech-to-text/) for a relative CER of ~41%
