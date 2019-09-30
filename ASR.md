@@ -8,7 +8,7 @@
     - on a publicly available dataset [jsut](https://sites.google.com/site/shinnosuketakamichi/publication/jsut) basic5k; [Google ASR API](https://cloud.google.com/speech-to-text/) achieves a CER of ~8.0%
   - how well does Souis do in ASR related tasks?
     - CER ~4.7% on CSJ test set;
-    - CER ~10.1% on Jsut Basic5k; Beats [IBM Watson API](https://www.ibm.com/watson/services/speech-to-text/) for a relative CER of ~41%
+    - CER ~9.9% on Jsut Basic5k; Beats [IBM Watson API](https://www.ibm.com/watson/services/speech-to-text/) for a relative CER of ~41%
     - transcription time ~8 min per audio hour on 4 Nvidia GTX1080Ti using parallism
 
 - Souis' Works
