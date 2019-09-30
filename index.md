@@ -5,7 +5,6 @@
 - [Automatic Speech Recognition (ASR)](ASR.md)
 - [Speech Enhancement](SE.md)
 - [Text To Speech (TTS)](TTS.md)
-- [Voice Conversion](VoiceConversion.md)
 
 # related side projects
 
@@ -14,6 +13,7 @@
 - Auto Punctuating
 - Spelling Correction Models for ASR systems
 - [Decoding techniques](decode.md)
+- [Voice Conversion](VoiceConversion.md)
 
 # interests
 
