@@ -26,27 +26,40 @@
   - a transfer learning technique enables the model to reach <7% Word Error Rate with only ~30h of training data beating [zhou et. al](http://tcci.ccf.org.cn/conference/2017/papers/106.pdf) (WER ~14.5%) with more convincing train-test split and no prior knowledge in Tibentan language 
 
 ## Future Works
---
+- apply unsupervised learning techniques on unpaired audios or texts
+- apply back-translation style ASR-TTS chain for better ASR performance
+- apply Reinforcement Learning techniques on ASR model training
 
-## Read More
+## Further Reading
 - where to get started on your own ASR systems
   - [EspNet](https://github.com/espnet/espnet) by JHU offers a great baseline for Pytorch Users
   - [Openseq2seq](https://github.com/NVIDIA/OpenSeq2Seq) by Nvidia offers a great baseline for Tensorflow Users
   - for Andriod applications [CMU sphinx](https://cmusphinx.github.io/) might be what you're looking for
   - [Fairseq](https://github.com/pytorch/fairseq) by Facebook AI Research Team and [RWTH ASR](https://www-i6.informatik.rwth-aachen.de/rwth-asr/) by Aachen University are great too; but might frighten beginnners because of their elaborate coding style
 - augmentation methods and training tricks
-  - speed perturbation
-  - SpecAugment
+  - [speed perturbation](http://speak.clsp.jhu.edu/uploads/publications/papers/1050_pdf.pdf)
+    - 3 folds of training data of speed [0.9x 1.0x 1.1x] yields 5% ~ 10% relative improvement over baseline; (kaldi users may augment on the fly by altering wav.scp file)
+  - [SpecAugment](https://arxiv.org/abs/1904.08779)
+    - apply heavy mask policy for large datasets; regular mask policy for small datasets; yields 5% ~ 10% relative improvements over baseline 
   - compression methods
-  - augment from noise
+    - improve robustness over artifacts from Speech-Enhanced audios and telephone audios; may be achieved by ffmpeg amr encoders
+  - augment with noise
+    - improve robustness over noise if augment with noise collect from usage scenario
+    - reduce overfitting if augment with gaussian noise
   - tuning learning rate
+    - [Cyclical learning rate](https://arxiv.org/abs/1506.01186) may have surprising effects for many modern optimizers
   - label smoothing
   - loss penalty
-  - min WER training
-  - training on sub-sentence units
-  - training tricks for self-attention based (transformer) models
-  - Spelling Correction models
-- [if you are more interest in ASR theories](CTC.md)
+  - [training on sub-sentence units](https://arxiv.org/abs/1902.01955)
+    - recommendation: for char-based language: bpe; for word level language: word-piece
+  - [min WER training](https://arxiv.org/abs/1712.01818)
+    - customizing loss functions
+  - adaptive embedding / adaptive softmax
+  - [training tricks for self-attention based (transformer) models](https://arxiv.org/abs/1804.00247)
+    - warmup learning rate
+    - large batch size (achieve by multiple GPU or accumulate gradient)
+    - checkpoint weight average
+- [ASR theories](CTC.md)
 - [ToolKits](tools.md)
 
 [back](index.md)
