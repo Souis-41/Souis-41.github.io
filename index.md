@@ -1,7 +1,7 @@
-# Souis Is WORKING on ASR and Related Works
+# Souis Is Working on ASR and Related Works
 - education: B.S. in Astrophysics; School of Physics, Peking University
 - occupation: in charge of ASR projects in Deep Blue Sonics
-- ~~[resume](resources/resume.pdf)~~ resume available via email requests
+- resume is available via [email requests](mailto:Souis@pku.edu.cn)
 
 # current works
 
