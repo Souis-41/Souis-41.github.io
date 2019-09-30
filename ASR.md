@@ -12,10 +12,11 @@
 - how well does Souis do in ASR related tasks?
   - CER ~4.7% on CSJ test set;
   - CER ~9.9% on Jsut Basic5k; Beats [IBM Watson API](https://www.ibm.com/watson/services/speech-to-text/) for a relative CER of ~41%
-  - transcription time ~8 min per audio hour on 4 Nvidia GTX1080Ti using parallism
+  - transcription time ~8 min per audio hour on 4 Nvidia GTX1080Ti GPUs
 
 ## Souis' Works
-- Japanese ASR
+- Japanese ASR <br />
+  ![system overview](sys_overview.png) <br />
   - a self-attention ASR network architecture; connected to a Language Model using [shallow fusion](https://arxiv.org/abs/1712.01996
 )
   - a [bidirectional Language Model rescoring technique](https://arxiv.org/abs/1905.06655) finetuned from a pretrained Bert [here](http://nlp.ist.i.kyoto-u.ac.jp/index.php?BERT日本語Pretrainedモデル)
