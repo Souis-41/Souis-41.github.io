@@ -13,7 +13,7 @@
 
 - Souis' Works
   - Japanese ASR
-    - a self-attention ASR network architecture; connected with Language Model using shallow fusion
+    - a self-attention ASR network architecture; connected to a Language Model using shallow fusion
     - a [bidirectional Language Model rescoring technique](https://arxiv.org/abs/1905.06655) finetuned from a pretrained Bert [here](http://nlp.ist.i.kyoto-u.ac.jp/index.php?BERT日本語Pretrainedモデル)
     - a Voice Activity Detection(VAD) system to segment raw audio and extract clips with utterances
     - an Auto-punctuating System for better human understanding and translation results
