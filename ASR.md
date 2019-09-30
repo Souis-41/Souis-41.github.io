@@ -38,7 +38,7 @@
     - apply heavy mask policy for large datasets; regular mask policy for small datasets; <br />
     yields 5% ~ 10% relative improvements over baseline 
   - compression methods
-    - improve robustness over artifacts from Speech-Enhanced audios and telephone audios; <nr />
+    - improve robustness over artifacts from Speech-Enhanced audios and telephone audios; <br />
     may be achieved by ffmpeg amr encoders
   - augment with noise
     - improve robustness over noise if augment with noise collect from usage scenario
