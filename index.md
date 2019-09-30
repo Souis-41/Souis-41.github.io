@@ -3,7 +3,6 @@
 # current works
 
 - [Automatic Speech Recognition (ASR)](ASR.md)
-- Language Modeling
 - Speech Enhancement
 - Text To Speech (TTS)
 - Voice Conversion
@@ -11,13 +10,16 @@
 # related side projects
 
 - Voice Activity Detection (VAD)
+- [Language Modeling](LanguageModeling.md)
 - Auto Punctuating
 - Spelling Correction Models for ASR systems
-- Decoding techniques
+- [Decoding techniques](decode.md)
 
 # interests
-- Automatic Music Trancriptions
-- Quaternion Neural Networks
+
+- [Automatic Music Trancriptions](AMT.md) (AMT)
+- [Quaternion Neural Networks](QuaternionNeuralNetworks.md)
+- [Discrete Optimization](DiscreteOptimization.md)
 
 # contact me
 - email: Souis@pku.edu.cn
