@@ -64,6 +64,7 @@
     - warmup learning rate
     - large batch size (achieve by multiple GPU or accumulate gradient)
     - checkpoint weight average
+
 <!--
 ## failed attempts
 - extract a speaker vector using a pretrained [VoxCeleb2](https://arxiv.org/abs/1806.05622) model; and 
