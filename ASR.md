@@ -64,11 +64,16 @@
     - warmup learning rate
     - large batch size (achieve by multiple GPU or accumulate gradient)
     - checkpoint weight average
+<!--
+## failed attempts
+- extract a speaker vector using a pretrained [VoxCeleb2](https://arxiv.org/abs/1806.05622) model; and 
+-->
 
 ## Future Works
 - apply [unsupervised learning techniques](ASRUnsupervised.md) on unpaired audios or texts
 - apply back-translation style [ASR-TTS augmentation](www.merl.com/publications/docs/TR2018-174.pdf) for better ASR performance; [spelling correction](https://arxiv.org/abs/1902.07178) seem promising, too
 - apply [Reinforcement Learning techniques on ASR model training](https://arxiv.org/abs/1811.04224)
+- jointly perform ASR task and predict speaker identity
 
 ## Further Reading
 - where to get started on your own ASR systems
