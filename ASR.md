@@ -18,7 +18,8 @@
 - Japanese ASR <br />
   ![system overview](pics/sys_overview.png) <br />
   - an optional Speech Enhancement (denoise) system trained in a joint-learning manner
-  - a Voice Activity Detection(VAD) system to segment raw audio and extract clips with utterances
+  - a Voice Activity Detection(VAD) system to segment raw audio and extract clips with utterances  
+  (placing it before SE model helps with large blank intervals)
   - a self-attention ASR network architecture; connected to a Language Model using [shallow fusion](https://arxiv.org/abs/1712.01996
 )
   - a [bidirectional Language Model rescoring technique](https://arxiv.org/abs/1905.06655) finetuned from a pretrained Bert [here](http://nlp.ist.i.kyoto-u.ac.jp/index.php?BERT日本語Pretrainedモデル)
