@@ -7,15 +7,18 @@ language model, together with acoustic model and pronunciation model, has been a
 
 ## how to utilize language models in ASR systems?
   - rescoring:  
-  ASR models propose several sequences with scores; language models rescore them; pick best.
+  ASR models propose several sequences with scores; language models rescore them; pick the best sequence.
     - beam search + second pass rescoring  
-    after the whole sequence is proposed; both uni-directional language models and bi-directional language models can be used for rescoring.  
-    bi-directional lms sounds better than uni-directional lms; but only marginal gain can be observed before you have both strong ASR models and language models, [this work](https://arxiv.org/abs/1905.06655) was the first to achieve a significant improvement;
-    **TODO: add explanation here** 
+    after the whole sequence is proposed; both uni-directional LMs and bi-directional LMs can be used for rescoring.  
+    bi-directional LMs sounds better than uni-directional LMs; but only marginal gain can be observed before you have both strong ASR models and language models, until a [Sentence Scoring Method](https://arxiv.org/abs/1905.06655) using BERT was able to achieve a significant improvement; as they could _consider the interaction between the past and the future words on the biLM_.  
+    in order to rescore a sentence, they create a set of series:  
+    ![seqs](pics/sanlm.png)  
+    and calculate probabilty for each masked word:  
+    ![scoring](pics/score.png)
     - lattice rescoring  
     save resources significantly; fit for n-gram language models;  
     [this work](http://mi.eng.cam.ac.uk/~xc257/papers/RNNLM_latrescore.pdf) and [this work in Kaldi](http://danielpovey.com/files/2018_icassp_lattice_pruning.pdf) proposes novel methods to cluster RNNLM states to fit into lattice rescoring techniques  
-    **TODO: add explanation here** 
+    
   - augmented ASR scorings:  
   ASR models and Language models give weighted scores together; propose sequences accodingly.
     - shallow fusion  
@@ -37,7 +40,7 @@ language model, together with acoustic model and pronunciation model, has been a
 ## toolkits  
   - [KenLM](https://kheafield.com/code/kenlm/) and its [python interface](https://github.com/kpu/kenlm) is a great place to get started on n-gram models
   - [gensim](https://github.com/rare-technologies/gensim) is great for document-level manipulation (say, when preprocessing)
-  - [fairseq](https://fairseq.readthedocs.io/en/latest/tasks.html#language-modeling) (lstm or transformer)
+  - [fairseq](https://fairseq.readthedocs.io/en/latest/tasks.html#language-modeling) lstm or transformer
   - [pytorch-transformer](https://github.com/huggingface/pytorch-pretrained-BERT) (bert)
 
 [back](index.md)
