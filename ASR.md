@@ -54,7 +54,7 @@
   - [training on sub-sentence units](https://arxiv.org/abs/1902.01955)
     - recommendation: for char-based language: bpe; for word level language: word-piece
   - [min WER training](https://arxiv.org/abs/1712.01818)
-    - customizing loss functions
+    - customizing loss functions; the idea sounds appealing, original paper improved ASR model performance only on a primitive baseline, no improvement observed on Souis' model; 
   - adaptive softmax
     - [adaptive loss](https://arxiv.org/abs/1609.04309) may help with large vocabulary models; <br />
     Facebook AI Research offers a 
@@ -62,7 +62,7 @@
     [loss function](https://github.com/pytorch/fairseq/blob/master/fairseq/criterions/adaptive_loss.py)
   - [training tricks for self-attention based (transformer) models](https://arxiv.org/abs/1804.00247)
     - warmup learning rate
-    - large batch size (achieve by multiple GPU or accumulate gradient)
+    - larger batch size (achieve by multiple GPU or accumulate gradient)
     - checkpoint weight average
 
 <!--
