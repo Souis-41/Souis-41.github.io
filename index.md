@@ -11,9 +11,8 @@
 
 - Voice Activity Detection (VAD)
 - [Language Modeling](LanguageModeling.md)
-- Auto Punctuating
+- [Auto Punctuating](AutoPunctuating.md)
 - Spelling Correction Models for ASR systems
-- [Decoding techniques](decode.md)
 - [Voice Conversion](VoiceConversion.md)
 
 # interests
