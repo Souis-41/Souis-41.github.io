@@ -2,7 +2,7 @@
 
 ## why language modeling?  
 language model, together with acoustic model and pronunciation model, has been a key component in a traditional ASR pipeline; but recent advances in end-to-end ASR systems do not necessarily require a language model; yet we still need them for:
-  - capturing relationships amongst charactors, word-pieces, words, or sentence-pieces; essential in CTC-based methods (as an abundance of <blank> and repeated parts breaks the connections of different parts)
+  - capturing relationships amongst charactors, word-pieces, words, or sentence-pieces; essential in CTC-based methods (as an abundance of \<blank\> and repeated parts breaks the connections of different parts)
   - making use of massive unpaired text data
 ## how to utilize language models in ASR systems?
   - rescoring:  
