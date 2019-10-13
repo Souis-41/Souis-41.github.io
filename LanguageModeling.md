@@ -5,6 +5,10 @@ language model, together with acoustic model and pronunciation model, has been a
   - capturing relationships amongst charactors, word-pieces, words, or sentence-pieces; essential in CTC-based methods (as an abundance of \<blank\> and repeated parts breaks the connections of different components)
   - making use of massive unpaired text data
 
+## how to evaluate a language model?
+  - by [perplexity](https://en.wikipedia.org/wiki/Perplexity); which could be easily calculated through nll-loss;
+  - by performance gain of the Machine Translation, Automatic Speech Recognition, etc. system it is integrated to. 
+
 ## how to utilize language models in ASR systems?
   - rescoring:  
   ASR models propose several sequences with scores; language models rescore them; pick the best sequence.  
