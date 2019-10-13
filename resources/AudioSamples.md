@@ -1,6 +1,10 @@
 Sample 1:  
 演奏会の切符は、当事務所で販売しています。  
-ground truth<embed height="50" width="1000" src="BASIC5000_0251.wav" />  
+ground truth audio  
+<a href="song.mp3">Play Sound</a><script type="text/javascript" src="http://mediaplayer.yahoo.com/js"></script>
+<!-- embed height="50" width="1000" src="BASIC5000_0251.wav" / -->  
+synthesized audio 
+<!-- embed height="50" width="1000" src="BASIC5000_0251-.wav" / -->  
 Sample 2:  
 市場価格の暴落で、一文無しになってしまった。  
 Sample 3:  
