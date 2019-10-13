@@ -27,7 +27,7 @@ language model, together with acoustic model and pronunciation model, has been a
     only the scores of the ASR model and the LM are combined.  
     best performance; easiest to implement;  
     - deep fusion  
-    ![deep fusion](pics/deep_fusion.png)
+    ![deep fusion](pics/deep_fusion.png)  
     combines hidden states together; train separately
     - cold fusion  
     ![cold fusion](pics/cold_fusion.png)  
