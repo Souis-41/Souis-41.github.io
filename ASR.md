@@ -72,6 +72,7 @@
 -->
 
 ## Future Works
+- if requested; augment data with reverberation
 - apply [unsupervised learning techniques](ASRUnsupervised.md) on unpaired audios or texts
 - apply back-translation style [ASR-TTS augmentation](https://www.merl.com/publications/docs/TR2018-174.pdf) for better ASR performance; [spelling correction](https://arxiv.org/abs/1902.07178) seem promising, too
 - apply [Reinforcement Learning techniques on ASR model training](https://arxiv.org/abs/1811.04224)
