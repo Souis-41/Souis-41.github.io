@@ -32,10 +32,13 @@ language model, together with acoustic model and pronunciation model, has been a
     best performance; easiest to implement;  
     - deep fusion  
     ![deep fusion](pics/deep_fusion.png)  
-    combines hidden states together; train separately
+    combines hidden states together; prone to overfit.
+    After both ASR and LM are trained separately, a gate is then learned with the ASR and LM parameters frozen;   
     - cold fusion  
     ![cold fusion](pics/cold_fusion.png)  
-    combines hidden states together; ASR model trained together with a pretrained language model;
+    combines ASR hidden states with LM logits;   
+    ASR model trained together with a pretrained language model; the gate is trained with the system;   
+    gives beams with most diversity.
 
 ## training and decoding theories  
   - count-based models (n-grams):  
