@@ -11,15 +11,15 @@
 
 - Voice Activity Detection (VAD)
 - [Language Modeling](LanguageModeling.md)
-- [Auto Punctuating](AutoPunctuating.md)
+- Auto Punctuating <!--(AutoPunctuating.md)-->
 - Spelling Correction Models for ASR systems
-- [Voice Conversion](VoiceConversion.md)
+- Voice Conversion<!--(VoiceConversion.md)-->
 
 # interests
 
-- [Automatic Music Trancriptions (AMT)](AMT.md)
-- [Quaternion Neural Networks](QuaternionNeuralNetworks.md)
-- [Discrete Optimization](DiscreteOptimization.md)
+- Automatic Music Trancriptions (AMT)<!--(AMT.md)-->
+- Quaternion Neural Networks<!--(QuaternionNeuralNetworks.md)-->
+- Discrete Optimization<!--(DiscreteOptimization.md)-->
 
 # contact me
 - email: Souis@pku.edu.cn
