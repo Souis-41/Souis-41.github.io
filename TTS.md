@@ -7,7 +7,7 @@
   - a vocoder is used to generate audio from spectrograms;
   while earlier works add emotion and speaker-related information in the vocoder-step; recent advances tend to add all these variations in the spectrogram.
 - how well does Souis do in TTS tasks?  
-  nothing much yet; Souis is still trying to convince his supervisor why TTS system is a critical part of the whole system; and how TTS improves Automatic Speech Recognition (ASR) performance drastically;
+  nothing much yet; ~~Souis is still trying to convince his supervisor why TTS system is a critical part of the whole system; and how TTS improves Automatic Speech Recognition (ASR) performance drastically;~~ Souis succeeded in convincing his supervisor; now he's building up a base line system from [EspNet recipe](https://github.com/espnet/espnet)
 - [Sample Audios](resources/AudioSamples.md)
 
 ## Souis's work
