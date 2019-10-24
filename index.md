@@ -4,7 +4,7 @@
 # current works
 
 - [Automatic Speech Recognition (ASR)](ASR.md)
-- [Speech Enhancement](SE.md)
+- Speech Enhancement
 - [Text To Speech (TTS)](TTS.md)
 
 # related side projects
