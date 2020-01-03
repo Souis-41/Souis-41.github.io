@@ -24,6 +24,6 @@
 ## future works
 - Implement Multi-speaker TTS systems with Global Style Tokens
 - Build an ASR-TTS chain to improve performance of both tasks
-- Souis cannot improve ASR results using TTS generated audio yet; much may due to the fact that Japanses use pitch accent and tone, both systems failed to capture related features and galloped astray together. He is making use of addional linguistic features as inputs.
+- Souis cannot improve ASR results using TTS generated audio yet; much may due to the fact that Japanses use pitch accent and tone, both systems failed to capture related features and galloped astray together. He is making use of addional linguistic features as inputs, hoping the TTS model could generate better audio.
 
 [back](index.md)
