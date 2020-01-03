@@ -7,12 +7,15 @@
   - a vocoder is used to generate audio from spectrograms;
   while earlier works add emotion and speaker-related information in the vocoder-step; recent advances tend to add all these variations in the spectrogram.
 - how well does Souis do in TTS tasks?  
-  nothing much yet; ~~to conduct relavent experiments; Souis is trying to convince his supervisor why TTS system is a critical part of the whole system; and how TTS improves Automatic Speech Recognition (ASR) performance drastically(which might not always be true);~~ Souis successfully convinced his supervisor; now he's building a baseline system from [EspNet recipe](https://github.com/espnet/espnet)
-- [Sample Audios](resources/AudioSamples.md)
+  he has built a baseline system from [EspNet recipe](https://github.com/espnet/espnet)
+- [Single Speaker Sample Audios](resources/AudioSamples.md)
 
 ## Souis's work
 - Souis utilizes a [Tacotron2](https://arxiv.org/abs/1712.05884)-based structure for Japanese TTS tasks, much credits to [EspNet](https://github.com/espnet/espnet/tree/master/egs/jsut/tts1), and pipes its output into a [WaveGlow structure](https://arxiv.org/abs/1811.00002) neural vocoder, and obtains [audio clips](resources/AudioSamples.md) with really nice quality.
-- Souis is still struggling to make sense of multiple speaker TTS systems, in the mean time, he uses a [voice conversion system](VoiceConversion.md) as a temporary substitute.
+- Souis uses a [voice conversion system](VoiceConversion.md) as a backup-plan.
+- According to a [recent work by Google](https://arxiv.org/abs/1909.11699), acoustic and lexical diversity as well as speaker diversity is required to enhance speech recognition performance.
+  - Acoustic & lexical diversity could be achieved through perplexty calculated by language models (desirably trained on transcript of the original training set).
+  - Speaker embedding randomly chose from seen clips generates audio more plausible than sampled on some distribution.
 
 ## features
 - tacotron2-based structure/ transformer-based structure
@@ -21,5 +24,6 @@
 ## future works
 - Implement Multi-speaker TTS systems with Global Style Tokens
 - Build an ASR-TTS chain to improve performance of both tasks
+- Souis cannot improve ASR results using TTS generated audio yet; much may due to the fact that Japanses use pitch accent and tone, both systems failed to capture related features and galloped astray together. He is making use of addional linguistic features as inputs.
 
 [back](index.md)
