@@ -16,6 +16,7 @@
 - According to a [recent work by Google](https://arxiv.org/abs/1909.11699), acoustic and lexical diversity as well as speaker diversity is required to enhance speech recognition performance.
   - Acoustic & lexical diversity could be achieved through perplexty calculated by language models (desirably trained on transcript of the original training set).
   - Speaker embedding randomly chose from seen clips generates audio more plausible than sampled on some distribution.
+- on [Vocoders](Vocoders.md)
 
 ## features
 - tacotron2-based structure/ transformer-based structure
