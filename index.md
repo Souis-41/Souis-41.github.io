@@ -6,6 +6,7 @@
 - [Automatic Speech Recognition (ASR)](ASR.md)
 - Speech Enhancement
 - [Text To Speech (TTS)](TTS.md)
+- [Neural Machine Translation(NMT)](NMT.md)
 
 # related side projects
 
@@ -14,6 +15,7 @@
 - Auto Punctuating <!--(AutoPunctuating.md)-->
 - Spelling Correction Models for ASR systems
 - Voice Conversion<!--(VoiceConversion.md)-->
+- Force Alignment
 
 # interests
 
