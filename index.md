@@ -1,27 +1,26 @@
-# Souis Is Working on ASR and Related Works
-- resume is available via [email requests](mailto:Souis@pku.edu.cn)
+# Souis Is A Graduate Student from Chalmers University of Technology
+- resume is available via [email requests](mailto:enmin@student.chalmers.se)
 
-# current works
+# ~~current~~ previous works
 
-- [Automatic Speech Recognition (ASR)](ASR.md)
+- [Automatic Speech Recognition (ASR)]<!--(ASR.md)-->
 - Speech Enhancement
-- [Text To Speech (TTS)](TTS.md)
-- [Neural Machine Translation(NMT)](NMT.md)
+- [Text To Speech (TTS)]<!--(TTS.md)-->
+- [Neural Machine Translation(NMT)]<!--(NMT.md)-->
 
-# related side projects
+# side projects
 
 - Voice Activity Detection (VAD)
-- [Language Modeling](LanguageModeling.md)
 - Auto Punctuating <!--(AutoPunctuating.md)-->
-- Spelling Correction Models for ASR systems
 - Voice Conversion<!--(VoiceConversion.md)-->
 - Force Alignment
+- Dam Behaviour Studies
+- Traffic Behaviour Studies
 
 # interests
 
 - Automatic Music Trancriptions (AMT)<!--(AMT.md)-->
-- Quaternion Neural Networks<!--(QuaternionNeuralNetworks.md)-->
 - Discrete Optimization<!--(DiscreteOptimization.md)-->
 
 # contact me
-- email: Souis@pku.edu.cn
+- email: enmin@student.chalmers.se
