@@ -1,26 +1,14 @@
-# Souis Is A Graduate Student from Chalmers University of Technology
+# A Homepage for Souis
+- Souis is a graduate student from Chalmers University of Technology
 - resume is available via [email requests](mailto:enmin@student.chalmers.se)
 
 # ~~current~~ previous works
 
-- [Automatic Speech Recognition (ASR)]<!--(ASR.md)-->
-- Speech Enhancement
-- [Text To Speech (TTS)]<!--(TTS.md)-->
-- [Neural Machine Translation(NMT)]<!--(NMT.md)-->
-
-# side projects
-
+- Automatic Speech Recognition (ASR)<!--(ASR.md)-->
+- Text To Speech (TTS)<!--(TTS.md)-->
 - Voice Activity Detection (VAD)
-- Auto Punctuating <!--(AutoPunctuating.md)-->
-- Voice Conversion<!--(VoiceConversion.md)-->
-- Force Alignment
+- Neural Machine Translation (NMT)<!--(NMT.md)-->
 - Dam Behaviour Studies
-- Traffic Behaviour Studies
-
-# interests
-
-- Automatic Music Trancriptions (AMT)<!--(AMT.md)-->
-- Discrete Optimization<!--(DiscreteOptimization.md)-->
 
 # contact me
 - email: enmin@student.chalmers.se
