@@ -7,7 +7,7 @@
 - [Automatic Speech Recognition (ASR)](ASR.md)
 - Text To Speech (TTS)<!--(TTS.md)-->
 - Voice Activity Detection (VAD)
-- Neural Machine Translation (NMT)<!--(NMT.md)-->
+- [Neural Machine Translation (NMT)](NMT.md)
 - Dam Behaviour Studies
 
 # contact me

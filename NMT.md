@@ -22,7 +22,7 @@
         - Dealing with Open Vocabulary situations
 
 ## Souis' Current Works
-- Souis utilizes a [Transformer]() model for Zh2Ja and Ja2Zh NMT
+- Souis utilizes a Transformer model for [Zh2Ja and Ja2Zh task, (IWSLT 2020)](https://aclanthology.org/2020.iwslt-1.16/)
 
 
 ## Future Works
